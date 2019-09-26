@@ -13,7 +13,7 @@ b/a                 = 2.5
 b//a                = 2
 b**a                = 25
 b%a                 = 1
-a+B                 = 7
+a+B                 = error because B is undefined
 type(42)            = <class 'int'>
 type(42.0)          = <class 'float'>
 type("C3PO")        = <class 'str'>
@@ -31,7 +31,7 @@ a+=12     22.0
 a-=7      15.0
 
 a             = 15.00
-type(a)       = integer
+type(a)       = float
 
 
 
@@ -47,7 +47,7 @@ a
 
 5.) Fix the code so it will calculate the average.
 x,y,z =(3,4,5)
-ave = x+y+z/3
+ave = (x+y+z)/3
 ave
 
 8.666
